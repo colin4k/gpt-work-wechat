@@ -35,11 +35,14 @@ class WechatSender():
             "duplicate_check_interval": 10,
             "debug": 1,
         }
+        '''
         if os.environ["all_proxy"] is not None:
             all_proxy = os.environ["all_proxy"]
             os.environ["all_proxy"] = ""
             resp = requests.post(url, params=params, json=data, proxies={}).json()
             os.environ["all_proxy"] = all_proxy
+        '''
+        resp = requests.post(url, params=params, json=data, proxies={}).json()
         return resp
     
     def _get_token(self):

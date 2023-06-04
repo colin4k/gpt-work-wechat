@@ -14,7 +14,7 @@ load_dotenv(env_path)
 
 openai.organization = "org-WL8jaKbBRVLeKS4Qjls4ZAhT"
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
+openai.api_base = os.getenv("OPENAI_API_BASE")
 
 class Messages:
     """
