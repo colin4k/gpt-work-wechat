@@ -22,6 +22,7 @@ WEWOEK_GPT_SECRET=""
 3. run `python main.py`
 
 4.Others:
+
 4.1 If you are using Azure OpenAI API
 please refer to: [https://github.com/haibbo/cf-openai-azure-proxy](https://github.com/haibbo/cf-openai-azure-proxy)
 
