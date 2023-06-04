@@ -5,12 +5,16 @@
 ```env
 OPENAI_API_KEY="xxxxxxxxxxxxxx"
 OPENAI_API_BASE="https://xxx.xxx.xxx/v1"
-WEWORK_TOKEN="xxxxxxx"
-WEWORK_AES_KEY="xxxxxxxxxxxxxxxxxxxxxxxxx"
-WEWORK_CORPID="xxxxxxxxxxxxxxxx"
-
+#自建应用-API接收消息页面-Token
+WEWORK_TOKEN=""
+# 自建应用-API接收消息页面-TokEncodingAESKey
+WEWORK_AES_KEY=""
+# 企业微信管理后台-我的企业-企业信息-最下面的企业ID
+WEWORK_CORPID=""
+#自建应用-应用管理详情页-AgentId
 WEWORK_GPT_AGENTID="1000002"
-WEWOEK_GPT_SECRET="xxxxxxxxxxxxxxxxxxxxx"
+#自建应用-详情页的Secret
+WEWOEK_GPT_SECRET=""
 ```
 
 2. `pip install -r requirements.txt`
