@@ -26,4 +26,4 @@ WEWOEK_GPT_SECRET=""
 4.1 If you are using Azure OpenAI API
 please refer to: [https://github.com/haibbo/cf-openai-azure-proxy](https://github.com/haibbo/cf-openai-azure-proxy)
 
-4.2 If you don't have a host oversea, you can utilize the Cloudflare's freee service, please refer to: [利用Cloudflare搭建ChatGPT API Proxy](doc/利用Cloudflare搭建ChatGPT API Proxy.pdf)
+4.2 If you don't have a host oversea, you can utilize the Cloudflare's freee service, please refer to: `doc/利用Cloudflare搭建ChatGPT API Proxy.pdf`
